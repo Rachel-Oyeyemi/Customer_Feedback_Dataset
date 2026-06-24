@@ -1,0 +1,14 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.vscode/
+.env
+.DS_Store
+
+# Ignore data and models directories for large files
+data/processed/
+models/
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints/
